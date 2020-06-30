@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-06-30T11:17:50 IST" name="Suite" finished-at="2020-06-30T11:19:29 IST" duration-ms="98455">
+    <groups>
+    </groups>
+    <test started-at="2020-06-30T11:17:50 IST" name="Test" finished-at="2020-06-30T11:19:29 IST" duration-ms="98455">
+      <class name="com.Scripts.TestLoginPase">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.Scripts.TestLoginPase@27ae2fd0]" started-at="2020-06-30T11:17:50 IST" name="launchBrowser" finished-at="2020-06-30T11:18:50 IST" duration-ms="59897" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:com.Scripts.TestLoginPase@27ae2fd0]" started-at="2020-06-30T11:18:50 IST" name="openApplication" finished-at="2020-06-30T11:19:05 IST" duration-ms="14532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="loginPage()[pri:0, instance:com.Scripts.TestLoginPase@27ae2fd0]" started-at="2020-06-30T11:19:05 IST" name="loginPage" finished-at="2020-06-30T11:19:21 IST" duration-ms="16594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method is-config="true" signature="colseApp(org.testng.ITestResult)[pri:0, instance:com.Scripts.TestLoginPase@27ae2fd0]" started-at="2020-06-30T11:19:21 IST" name="colseApp" finished-at="2020-06-30T11:19:29 IST" duration-ms="7272" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginPage status=SUCCESS method=TestLoginPase.loginPage()[pri:0, instance:com.Scripts.TestLoginPase@27ae2fd0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- colseApp -->
+      </class> <!-- com.Scripts.TestLoginPase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
